@@ -1,0 +1,108 @@
+<style>
+
+.sbar input[type=text] {
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.logo {
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+}
+
+.btn {
+    background-image: -webkit-linear-gradient(top, #f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.blnav {
+    float: left;
+}
+
+.brnav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #000000
+}
+
+footer {
+    background-color: #f3f3f3;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+</style>
+
+
+<!DOCTYPE html>
+
+<head>
+    <title>Google</title>
+</head>
+
+<body>
+<ul>
+    <li><a href="about.asp">About</a></li>
+    <li><a href="store.asp">Store</a></li>
+    <li style="float:right"><a href="gmail.asp">Gmail</a></li>
+    <li style="float:right"><a href="images.asp">Images</a></li>
+</ul>
+
+    <center>
+
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" class="center">
+    <div class="sbar">
+        <input type="text" placeholder="">
+      </div>
+    
+        <button class="btn" type="button">Google Search</button>
+        <button class="btn" type="button">I'm Feeling Lucky</button>
+
+    </center>
+    <footer>
+   <ul class=blnav>
+       <li><a href="advertising.asp">Advertising</li>
+       <li><a href="business.asp">Business</a></li>
+       <li><a href="howsearchworks.asp">How Search works</a></li>
+       </ul>
+    <ul class=brnav>
+       <li><a href="privacy.asp">Privacy</a></li>
+       <li><a href="terms.asp">Terms</a></li>
+       <li><a href="settings.asp">Settings</a></li>
+    </ul>
+</footer>
+</body>
+</html>
+
