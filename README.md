@@ -1,0 +1,1 @@
+For this project, I will be deconstructing an existing web page and rebuild it. I will be learning how to use the browser's (Chrome) developer tools.
